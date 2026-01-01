@@ -1,0 +1,30 @@
+# Sweepy runtime files
+.sweepy/
+reports/
+logs/
+
+# Sweep-generated files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Node (if any dev dependencies)
+node_modules/
+package-lock.json
+
+# PowerShell profile
+$PROFILE
+
+# Windows
+Desktop.ini
+.tern-port
