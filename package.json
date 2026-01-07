@@ -1,0 +1,35 @@
+{
+  "name": "@atssj/sweepy",
+  "version": "0.1.0",
+  "description": "Automated cleanup for stale node_modules directories on Windows. Safe by default with multiple layers of protection.",
+  "main": "sweepy.ps1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "windows",
+    "powershell",
+    "cleanup",
+    "node-modules",
+    "disk-space",
+    "stale",
+    "automation",
+    "safety"
+  ],
+  "author": "atssj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atssj/sweepy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atssj/sweepy/issues"
+  },
+  "homepage": "https://github.com/atssj/sweepy#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
