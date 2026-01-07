@@ -21,26 +21,31 @@ Sweepy finds and removes old, unused `node_modules` folders that are consuming d
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
 
-2. **Download `sweepy.ps1`** (coming soon)
+2. **Install via npm:**
+   ```bash
+   npm install -g sweepy-cli
+   ```
 
 ### Usage
 
-```powershell
+```bash
 # Scan for stale node_modules (no deletion)
-.\sweepy.ps1 scan
+sweepy scan
 
 # Preview what would be deleted (safe, no confirmation needed)
-.\sweepy.ps1 clean -Report report.txt -WhatIf
+sweepy clean -Report report.txt -WhatIf
 
 # Interactive cleanup (shows summary, asks for confirmation)
-.\sweepy.ps1 clean -Report report.txt
+sweepy clean -Report report.txt
 
 # Skip confirmation (still shows summary first)
-.\sweepy.ps1 clean -Report report.txt -Force
+sweepy clean -Report report.txt -Force
 
 # Set up weekly automated scans (admin required)
-.\sweepy.ps1 install-task
+sweepy install-task
 ```
+
+> **Note:** You can still run the script directly using `.\sweepy.ps1` if you downloaded the source.
 
 ## Features
 
