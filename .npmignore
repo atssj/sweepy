@@ -1,0 +1,49 @@
+# Development and documentation files
+node_modules/
+.git/
+.github/
+.gitignore
+.npmrc
+CHANGELOG.md
+CONTRIBUTING.md
+PULL_REQUEST_TEMPLATE.md
+
+# Testing
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+.nyc_output/
+
+# IDE and editor files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+.env.local
+
+# Build and distribution
+build/
+dist/
+.tsc/
+
+# Yarn and npm
+yarn.lock
+package-lock.json
+.npmignore
+
+# Documentation
+README.md
+docs/
+
+# CI/CD
+.travis.yml
+.github/
+.gitlab-ci.yml
+
+# Others
+.editorconfig
