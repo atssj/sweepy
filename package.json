@@ -1,0 +1,30 @@
+{
+  "name": "sweepy-cli",
+  "version": "1.0.0",
+  "description": "Automated cleanup for stale node_modules directories on Windows.",
+  "bin": {
+    "sweepy": "./bin/sweepy.js"
+  },
+  "os": [
+    "win32"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cleanup",
+    "node_modules",
+    "windows",
+    "powershell",
+    "disk-space"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "sweepy.ps1",
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
